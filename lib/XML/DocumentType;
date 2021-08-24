@@ -1,0 +1,12 @@
+use W3C::DOM;
+
+class XML::DocumentType
+    does W3C::DOM::DocumentType;
+
+has Str $.name;
+has Str $.publicId;
+has Str $.systemId;
+
+method entities {...}
+method notations {...}
+method internalSubset {...}

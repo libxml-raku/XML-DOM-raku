@@ -1,0 +1,33 @@
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+    "Method::Also"
+  ],
+  "description": "W3C DOM Level 2 interface for XML",
+  "license": "Artistic-2.0",
+  "name": "XML::DOM",
+  "perl": "6.c",
+  "provides": {
+    "XML::DOM": "lib/XML/DOM.rakumod",
+    "XML::DOM::Document": "lib/XML/DOM/Document.rakumod",
+    "XML::DOM::DocumentType": "lib/XML/DOM/DocumentType.rakumod",
+    "XML::DOM::Element": "lib/XML/DOM/Element.rakumod",
+    "XML::DOM::Node": "lib/XML/DOM/Node.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "git://github.com/libxml-raku/XML-DOM-raku.git",
+  "tags": [
+    "xml",
+    "html",
+    "dom"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
