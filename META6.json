@@ -6,7 +6,8 @@
   "build-depends": [
   ],
   "depends": [
-    "Method::Also"
+    "Method::Also",
+    "W3C::DOM"  
   ],
   "description": "W3C DOM Level 2 interface for XML",
   "license": "Artistic-2.0",
