@@ -7,7 +7,8 @@
   ],
   "depends": [
     "Method::Also",
-    "W3C::DOM"  
+    "W3C::DOM",
+    "XML"
   ],
   "description": "W3C DOM Level 2 interface for XML",
   "license": "Artistic-2.0",
